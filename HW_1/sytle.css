@@ -1,12 +1,23 @@
-    body {
-    font-family: monospace;
-    }
-    p.about_me {
-        font-family: monospace;
-        color: brown;
-        font-size: 20px;
-    }
-    img.foto {
-        width: 300px;
-        
-    }
+body {
+  font-family: monospace;
+}
+p.about_me {
+  font-family: monospace;
+  color: brown;
+  font-size: 20px;
+}
+img.foto {
+  width: 300px;
+}
+.main_per {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.block_text {
+  border: 2px solid brown;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
