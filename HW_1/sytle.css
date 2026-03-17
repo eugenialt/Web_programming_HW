@@ -1,0 +1,47 @@
+body {
+  font-family: monospace;
+  background-color: #f4f6f8;
+  color: #333333;
+  margin: 0;
+  padding: 50px 0;
+}
+p.about_me {
+  font-family: monospace;
+  font-size: 20px;
+  color: #64748b;
+}
+img.foto {
+  width: 300px;
+  border: 1px solid #e0e0e0;
+  padding: 15px; 
+  background-color: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.05);
+  border-radius: 4px;
+  margin-bottom: 20px
+}
+.main_per {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.block_text {
+  background-color: #ffffff; 
+  border: none;
+  border-radius: 20px; 
+  padding: 35px 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06); 
+  width: 80%;
+  max-width: 500px;
+}
+
+.corgie{
+  position: absolute;
+  width: 90px;
+  height: auto;
+  bottom: 5%; 
+  right: 15%; 
+  transform: rotate(15deg); 
+}
